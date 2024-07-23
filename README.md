@@ -1,0 +1,119 @@
+# site
+            Bem-vindo ao meu site pessoal! Sou um especialista em marketing digital com uma paixão por criar estratégias eficazes e inovadoras. Aqui, você encontrará informações sobre meus projetos, fotos e muito mais.
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Pessoal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #4a90e2;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section-title {
+            color: #4a90e2;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        .about, .projects, .contact {
+            margin-bottom: 40px;
+        }
+        .projects img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+        }
+        .contact-form button {
+            background-color: #4a90e2;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #357ab8;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site Pessoal</h1>
+    </header>
+    <nav>
+        <a href="#about">Sobre</a>
+        <a href="#projects">Projetos</a>
+        <a href="#contact">Contato</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="about">
+            <h2 class="section-title">Sobre</h2>
+            <p>Bem-vindo ao meu site pessoal! Sou um especialista em marketing digital com uma paixão por criar estratégias eficazes e inovadoras. Aqui, você encontrará informações sobre meus projetos, fotos e muito mais.</p>
+        </section>
+        <section id="projects" class="projects">
+            <h2 class="section-title">Projetos</h2>
+            <img src="projeto1.jpg" alt="Projeto 1">
+            <img src="projeto2.jpg" alt="Projeto 2">
+            <img src="projeto3.jpg" alt="Projeto 3">
+        </section>
+        <section id="contact" class="contact">
+            <h2 class="section-title">Contato</h2>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Seu Nome">
+                <input type="email" name="email" placeholder="Seu Email">
+                <textarea name="message" placeholder="Sua Mensagem"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        &copy; 2024 Meu Site Pessoal. Todos os direitos reservados.
+    </footer>
+</body>
+</html>
